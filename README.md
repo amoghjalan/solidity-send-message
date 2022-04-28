@@ -1,16 +1,14 @@
-# Basic Sample Hardhat Project
+# Message sending solidity project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This project demonstrates a basic Hardhat use case. It can used to send a message over blockchain network.
 
-Try running some of the following tasks:
+To clone this project
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+Add a .env file in root gile with following data:
+
 ```
-"# solidity-send-message" 
+PRIVATE_KEY=[YOUR-KEY]
+API_URL_KEY=[ALCHEMY-API-URL-KEY]
+API_KEY=[ALCHEMY-API-KEY]
+CONTRACT=[CONTRACT-ID]
+```
